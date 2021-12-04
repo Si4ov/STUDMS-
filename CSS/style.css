@@ -1,0 +1,118 @@
+body{
+  text-align: center;
+  background-color: #FEF5ED;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+.navbar{
+  padding: 1% 1%;
+}
+.navbar-brand{
+  font-size: 2.2rem;
+}
+.NAVNAME{
+  display: inline-block;
+}
+
+.nav-item{
+  margin: 0 5px;
+}
+
+/* TITLE */
+#title{
+  background-color: #FEF5ED;
+    margin: 0 5% 0;
+}
+.slider{
+  padding: 2% 4%;
+}
+.buy-area{
+  padding: 10% 10% ;
+  background-image: url('../img/home page/course/background-1.jpg');
+  background-size: 88% 88%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+.support-text{
+  color: white;
+  margin-top: 5%;
+}
+
+@media(max-width:1200px) {
+  .buy-area{
+      background-size: 92% 92%;
+  }
+
+
+}
+
+/* SECOND PART */
+
+#second-part {
+  background-color: #FEF5ED;
+    margin: 0 5% 0;
+  }
+.post-1{
+  background-image: url('../img/home page/2nd-part/mirrorless-vs-dslr-photo.png');
+  background-repeat: no-repeat;
+  background-size: 70% ;
+  background-position: center;
+  padding: 1%;
+}
+@media (max-width:1200px) {
+  .post-1{
+    background-size: 90% ;
+  }
+
+}
+.post-1-1{
+  margin-top: 37%;
+
+}
+/* THIRD PART */
+
+#third-part {
+  background-color: #FEF5ED;
+    margin: 0 5% 0;
+  }
+
+.blog-h3{
+  margin-top: 5%;
+}
+.blog-p{
+  color: #A19882;
+}
+.card{
+  margin: 2%;
+  background-color: #FEF5ED;
+  border: 0;
+}
+.blog-img{
+  width: 100%;
+  padding-top: 5%;
+}
+
+/* FOURTH PART */
+
+#fourth-part{
+    background-color: #FEF5ED;
+      margin: 0 5% 0;
+      padding-top: 1%;
+    }
+
+.a-sotial{
+  margin: 0 1%;
+  color: #A19882;
+}
+.a-sotial:hover{
+  margin: 0 1%;
+  color: black;
+}
+.footer{
+  height: 5rem;
+}
+.p-footer{
+  color: black;
+  margin-top: 2%;
+}
