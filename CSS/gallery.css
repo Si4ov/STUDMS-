@@ -35,10 +35,44 @@ body{
     margin-bottom: 6%;
   }
 }
+.col-md-6{
+  position: relative;
+
+}
 .img-gall{
   width: 100%;
   padding: 2%;
+  position: relative;
+  z-index: 0;
 }
+
+.opas1{
+    opacity: 0.6;
+}
+.img_discr{
+  position: absolute;
+  padding: 5%;
+  bottom: 1%;
+  top:1%;
+  left: 1%;
+  right: 1%;
+  color: black;
+  opacity: 1;
+  font-size: 1.2rem;
+
+
+}
+@media (max-width:1200px) {
+  .img_discr{
+    font-size: 1rem;
+  }
+
+}
+
+
+
+
+
 /* FOOTER */
 #fourth-part{
     background-color: #FEF5ED;
