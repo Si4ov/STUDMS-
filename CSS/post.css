@@ -38,6 +38,11 @@ body{
   text-indent: 3%;
   line-height: 2.5;
 }
+@media (max-width: 700 px){
+ .paragraphs{
+  line-height: 1.5;
+}
+}
 
 .topic{
   text-align: center;
@@ -50,7 +55,7 @@ body{
 }
 @media (max-width: 1100px ) {
   .image{
-    width: 400px;
+    width: 80%;
   }
 
 }
