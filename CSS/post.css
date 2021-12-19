@@ -38,7 +38,7 @@ body{
   text-indent: 3%;
   line-height: 2.5;
 }
-@media (max-width: 700 px){
+@media (max-width: 700px){
  .paragraphs{
   line-height: 0.9;
 }
