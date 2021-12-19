@@ -40,8 +40,8 @@ body{
 }
 @media (max-width: 700px){
  .paragraphs{
-  line-height: 1.2;
-  font-size: 1.5rem;
+  line-height: 1.3;
+  font-size: 1.2rem;
 }
 }
 
