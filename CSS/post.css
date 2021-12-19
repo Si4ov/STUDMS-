@@ -41,6 +41,7 @@ body{
 @media (max-width: 700px){
  .paragraphs{
   line-height: 0.9;
+  font-size: 1rem;
 }
 }
 
