@@ -1,118 +1,126 @@
-body{
-  text-align: center;
-  background-color: #FEF5ED;
-  font-family: 'Oswald', sans-serif;
+body {
+		text-align: center;
+		background-color: #FEF5ED;
+		font-family: 'Oswald', sans-serif;
 }
 
 /* navbar */
-.navbar{
-  padding: 1% 1%;
-}
-.navbar-brand{
-  font-size: 2.2rem;
-}
-.NAVNAME{
-  display: inline-block;
+.navbar {
+		padding: 1%;
 }
 
-.nav-item{
-  margin: 0 5px;
+.navbar .navbar-brand {
+		font-size: 2.2rem;
+}
+
+.navbar .NAVNAME {
+		display: inline-block;
+}
+
+.navbar .nav-item {
+		margin: 0 5px;
 }
 
 /* TITLE */
-#title{
-  background-color: #FEF5ED;
-    margin: 0 5% 0;
-}
-.slider{
-  padding: 2% 4%;
-}
-.buy-area{
-  padding: 10% 10% ;
-  background-image: url('../img/home page/course/background-1.jpg');
-  background-size: 88% 88%;
-  background-position: center;
-  background-repeat:no-repeat;
-}
-.support-text{
-  color: white;
-  margin-top: 5%;
+#title {
+		background-color: #FEF5ED;
+		margin: 0 5%;
 }
 
-@media(max-width:1200px) {
-  .buy-area{
-      background-size: 92% 92%;
-  }
+#title .slider {
+		padding: 2% 4%;
+}
 
+#title .buy-area {
+		padding: 10%;
+		background-image: url("../img/home page/course/background-1.jpg");
+		background-size: 88% 88%;
+		background-position: center;
+		background-repeat: no-repeat;
+}
 
+#title .support-text {
+		color: white;
+		margin-top: 5%;
+}
+
+@media (max-width: 1200px) {
+		#title .buy-area {
+				background-size: 92% 92%;
+		}
 }
 
 /* SECOND PART */
-
 #second-part {
-  background-color: #FEF5ED;
-    margin: 0 5% 0;
-  }
-.post-1{
-  background-image: url('../img/home page/2nd-part/mirrorless-vs-dslr-photo.png');
-  background-repeat: no-repeat;
-  background-size: 70% ;
-  background-position: center;
-  padding: 1%;
+		background-color: #FEF5ED;
+		margin: 0 5%;
 }
-@media (max-width:1200px) {
-  .post-1{
-    background-size: 90% ;
-  }
 
+#second-part .post-1 {
+		background-image: url("../img/home page/2nd-part/mirrorless-vs-dslr-photo.png");
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: center;
+		padding: 1%;
 }
-.post-1-1{
-  margin-top: 37%;
 
+@media (max-width: 1200px) {
+		#second-part .post-1 {
+				background-size: 90%;
+		}
 }
+
+#second-part .post-1-1 {
+		margin-top: 37%;
+}
+
 /* THIRD PART */
-
 #third-part {
-  background-color: #FEF5ED;
-    margin: 0 5% 0;
-  }
+		background-color: #FEF5ED;
+		margin: 0 5%;
+}
 
-.blog-h3{
-  margin-top: 5%;
+#third-part .blog-h3 {
+		margin-top: 5%;
 }
-.blog-p{
-  color: #A19882;
+
+#third-part .blog-p {
+		color: #A19882;
 }
-.card{
-  margin: 2%;
-  background-color: #FEF5ED;
-  border: 0;
+
+#third-part .card {
+		margin: 2%;
+		background-color: #FEF5ED;
+		border: 0;
 }
-.blog-img{
-  width: 100%;
-  padding-top: 5%;
+
+#third-part .blog-img {
+		width: 100%;
+		padding-top: 5%;
 }
 
 /* FOURTH PART */
+#fourth-part {
+		background-color: #FEF5ED;
+		margin: 0 5%;
+		padding-top: 1%;
+}
 
-#fourth-part{
-    background-color: #FEF5ED;
-      margin: 0 5% 0;
-      padding-top: 1%;
-    }
+#fourth-part .a-sotial {
+		margin: 0 1%;
+		color: #A19882;
+}
 
-.a-sotial{
-  margin: 0 1%;
-  color: #A19882;
+#fourth-part .a-sotial:hover {
+		margin: 0 1%;
+		color: black;
 }
-.a-sotial:hover{
-  margin: 0 1%;
-  color: black;
+
+#fourth-part .footer {
+		height: 5rem;
 }
-.footer{
-  height: 5rem;
-}
-.p-footer{
-  color: black;
-  margin-top: 2%;
+
+#fourth-part .p-footer {
+		color: black;
+		margin-top: 2%;
 }
