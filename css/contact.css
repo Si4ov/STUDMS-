@@ -1,0 +1,92 @@
+body {
+		text-align: center;
+		background-color: #FEF5ED;
+		font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+.navbar {
+		padding: 1%;
+}
+
+.navbar .navbar-brand {
+		font-size: 2.2rem;
+}
+
+.navbar .NAVNAME {
+		display: inline-block;
+}
+
+.navbar .nav-item {
+		margin: 0 5px;
+}
+
+/* FIRST PART */
+#contact {
+		background-color: #FEF5ED;
+		margin: 0 5%;
+		padding-top: 1%;
+}
+
+#contact .h2-blog {
+		margin-left: 1%;
+		margin-top: 5%;
+		margin-bottom: 3%;
+}
+
+@media (max-width: 1200px) {
+		#contact .h2-blog {
+				margin-bottom: 6%;
+		}
+}
+
+#contact .contact-p {
+		color: #A19882;
+		width: 30%;
+		margin: 2% auto;
+}
+
+@media (max-width: 1000px) {
+		#contact .contact-p {
+				width: 80%;
+				margin: 2% auto;
+		}
+}
+
+#contact .mb-3 {
+		width: 40%;
+		margin: auto;
+}
+
+@media (max-width: 700px) {
+		#contact .mb-3 {
+				width: 100%;
+				margin: auto;
+		}
+}
+
+/* FOOTER */
+#fourth-part {
+		background-color: #FEF5ED;
+		margin: 0 5%;
+		padding-top: 1%;
+}
+
+#fourth-part .a-sotial {
+		margin: 0 1%;
+		color: #A19882;
+}
+
+#fourth-part .a-sotial:hover {
+		margin: 0 1%;
+		color: black;
+}
+
+#fourth-part .footer {
+		height: 5rem;
+}
+
+#fourth-part .p-footer {
+		color: black;
+		margin-top: 2%;
+}
