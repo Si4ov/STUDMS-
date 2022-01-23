@@ -52,24 +52,21 @@
     <h2 class="h2-blog">Contact me</h2>
     <p class="contact-p">Don’t hesitate to reach out with the contact information at Sotial Networks below, or send a message using the form.</p>
 
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Your Email address:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Your Name:</label>
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-        </div>
-
-        <a class="btn btn-light btn-outline-dark " action="" href="#">SEND MESSAGE</a>
+    <form class="mb-3" id="contactform"action="https://formsubmit.io/send/frozendron1@gmail.com" method="POST">
+      <input name="_redirect" type="hidden" id="name" value="https://si4ov.github.io/STUDMS-/index.html">
+        <label for="exampleFormControlInput1" class="form-label">Your Email address:</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
 
 
+        <label for="exampleFormControlTextarea1" class="form-label">Your Name:</label>
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="name">
 
-
+        <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
+        <textarea class="form-control" id="comment" rows="6"></textarea>
+    
+      <input name="_formsubmit_id" type="text" style="display:none">
+      <input class="btn btn-light btn-outline-dark " value="SEND MESSAGE" type="submit">
+    </form>
 
   </div>
 

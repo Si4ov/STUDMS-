@@ -90,3 +90,7 @@ body {
 		color: black;
 		margin-top: 2%;
 }
+
+input{
+	margin: 10px;
+}
