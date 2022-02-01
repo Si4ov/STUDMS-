@@ -73,25 +73,22 @@ body {
 				background-size: 90%;
 		}
 }
-#second-part .post-2 {
-		background-image: url("../img/gallery/evening walk.jpg");
-		background-repeat: no-repeat;
-		background-size: 88%;
-		height: 370px;
-		background-position: center;
-		padding: 1%;
-}
-
-@media (max-width: 1200px) {
-		#second-part .post-2 {
-				background-size: 90%;
-		}
+.img_ev{
+	padding-top: 30px;
+	position: relative;
+	height: auto;
+	width: 90%;
 }
 
 #second-part .post-1-1 {
 		margin-top: 40%;
 }
-
+#second-part .post-2-2 {
+		margin-top: 40%;
+		display: inline-block;
+    margin-top: -15%;
+		position:relative;
+}
 /* THIRD PART */
 #third-part {
 		background-color: #FEF5ED;
