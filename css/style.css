@@ -33,7 +33,7 @@ body {
 
 #title .buy-area {
 		padding: 10%;
-		background-image: url("../img/home page/course/background-1.jpg");
+		background-image: url("../img/home page/course/background-1.webp");
 		background-size: 88% 88%;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body {
 }
 
 #second-part .post-1 {
-		background-image: url("../img/home page/2nd-part/mirrorless-vs-dslr-photo.png");
+		background-image: url("../img/home page/2nd-part/mirrorless-vs-dslr-photo.webp");
 		background-repeat: no-repeat;
 		background-size: 75%;
 		background-position: center;
@@ -81,7 +81,7 @@ body {
 }
 
 #second-part .post-1-1 {
-		margin-top: 40%;
+		margin-top: 48%;
 }
 #second-part .post-2-2 {
 		margin-top: 40%;
