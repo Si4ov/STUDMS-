@@ -68,6 +68,24 @@ body {
 		background-color: #Fff;
 }
 
+.blog-img{
+    vertical-align: middle;
+    height: 300px;
+}
+.card-body{
+	height: 200px;
+}
+@media (max-width: 1200px) {
+	.blog-img{
+			vertical-align: middle;
+			height: 200px;
+	}
+	.card-body{
+		height: 210px;
+	}
+}
+
+
 /* FOOTER */
 #fourth-part {
 		background-color: #FEF5ED;
