@@ -3,7 +3,7 @@ body {
 		background-color: #FEF5ED;
 		font-family: 'Oswald', sans-serif;
 }
-a{
+.blog-p a{
 	color: rgba(0,0,0,.55);
     text-decoration: underline;
     font-weight: 500;
@@ -63,7 +63,7 @@ a{
 		}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
 		#first-part .blog-p {
 				width: 100%;
 		}
@@ -92,6 +92,45 @@ a{
 	}
 	.card-body{
 		height: 210px;
+	}
+}
+@media (max-width: 770px) {
+	.blog-img{
+			vertical-align: middle;
+			height: 155px;
+			padding: 4px;
+			border-radius: 10px 10px 0 0;
+	}
+	.card-body{
+		height: 260px;
+	}
+}
+	@media (max-width: 400px) {
+		.blog-img{
+				vertical-align: middle;
+				height: 155px;
+				padding: 4px;
+				border-radius: 10px 10px 0 0;
+		}
+		.card-body{
+			height: 220px;
+		}
+}
+@media (max-width: 420px) {
+	.blog-img{
+			vertical-align: middle;
+			height: 185px;
+			padding: 4px;
+			border-radius: 10px 10px 0 0;
+	}
+	.card-body{
+		height: 210px;
+	}
+}
+	.btn-outline-dark {
+    position: initial;
+    color: #212529;
+    border-color: #212529;
 	}
 }
 
