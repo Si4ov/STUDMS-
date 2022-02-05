@@ -80,7 +80,8 @@ body {
 @media (max-width: 1200px) {
 	.blog-img{
 			vertical-align: middle;
-			height: 200px;
+			height: 165px;
+			padding: 4px;
 			border-radius: 10px 10px 0 0;
 	}
 	.card-body{
