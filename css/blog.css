@@ -66,11 +66,13 @@ body {
 #first-part .card {
 		margin: 2%;
 		background-color: #Fff;
+		border-radius: 10px;
 }
 
 .blog-img{
     vertical-align: middle;
     height: 300px;
+		border-radius: 10px 10px 0 0;
 }
 .card-body{
 	height: 200px;
@@ -79,6 +81,7 @@ body {
 	.blog-img{
 			vertical-align: middle;
 			height: 200px;
+			border-radius: 10px 10px 0 0;
 	}
 	.card-body{
 		height: 210px;
