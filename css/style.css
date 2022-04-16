@@ -115,13 +115,32 @@ body {
 
 #third-part .card {
 		margin: 2%;
-		background-color: #FEF5ED;
+		background-color: #FFF;
 		border: 0;
+		border-radius: 15px;
 }
 
+#third-part .card-title {
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+}
 #third-part .blog-img {
 		width: 100%;
-		padding-top: 5%;
+		border-radius: 15px 15px 0 0;
+}
+#third-part .card-body{
+    height: 200px;
+}
+
+#third-part .card-body .btn-outline-dark{
+    position: absolute;
+    bottom: 20px;
+    left: 42%;
+}
+@media (max-width:450px){
+    #third-part .card-body .btn-outline-dark {
+    left: 37%;
+    }
 }
 
 /* FOURTH PART */
