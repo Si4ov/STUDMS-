@@ -4,6 +4,14 @@ body {
 		background-color: #FEF5ED;
 		font-family: 'Oswald', sans-serif;
 }
+.flag_line_1{
+	height: 10px;
+	background-color: blue;
+}
+.flag_line_2{
+	height: 10px;
+	background-color: yellow;
+}
 
 /* navbar */
 .navbar {
