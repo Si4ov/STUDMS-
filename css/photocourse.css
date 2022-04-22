@@ -69,9 +69,11 @@ body {
 #title .dowload{
 	position: relative;
 	top: 510px;
-	width: 150px;
+	width: 170px;
 }
-
+#title .sup{
+ 	width: 170px;   
+}
 #title .buy-area {
 		padding: 10%;
 		background-image: linear-gradient(to top left, #E6DDC6 50%, #F3E9DD 100%);
